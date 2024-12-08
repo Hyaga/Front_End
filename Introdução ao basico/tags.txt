@@ -1,0 +1,23 @@
+<!-- Tags e seus significados -->
+
+<!--As tags h1 são destinadas aos titulos e subtitulos-->
+
+<!--As tags <p> são responsaveis por criar os paragrafos-->
+
+<!--As tags <br> quebram as linhas no html-->
+
+<!--As tags <a> são resposanveis inserir um link em alguma para html, elas em si precisam obrigatoriamente de um atributo para funcionar-->
+<!--Atributos muitos usados para a tag <a> sao hrfe e o target, o hrfe endereça o link e o target realoca o usuario a outra pagina quando o link e clicado-->
+
+<!--Formas de usar os atributos com a tag <a> são:
+<a hrfe = "https: ..."> endereçamento
+<a target = "_blank"> joga para outra pagina -->
+
+<!--As tags <i> e <em> são responsaveis por deixar partes do texto em html italico, a diferença delas e que a tag <i> so deixa o texto em italico ja a <em> deixa ele italico de uma forma semantica-->
+
+<!--A tags <b> e strong são resposaveis por deixar partes do texto em html em negrito, a diferença delas e que a tag <b> deixa so em negrito ja a <strong> deixa em negrico de forma semantica-->
+
+<!--As tags <ol> e <uL> são respectivamente as tags responsaveis por criar listas ordenadas(ol) e listas não ordenadas(ul), a diferença entre elas e que na lista ordenadas a uma sequença a se seguir ja na não ordenadas não a sequencia nem padrão nem um -->
+<!--Lembrando que para adicionar algo nas listas não se insere por meio das tags <p>, mais sim pela tag <li> que são responsaveis por inserir itens na lista -->
+
+<!--A tag <mark> e resposavel por marcar parte de um texto ou parte do html-->
