@@ -3,8 +3,19 @@ h1{
     font-family: Arial, Helvetica, sans-serif;
     color:blueviolet;
 }
-p{
-    font-size: 20px;
+
+.destaque {
+    color: #00696d;
+    font-weight: bold;
+}
+
+#titulo {
+    color: #7b5101;
+}
+
+.paragrafoInformativo{
+    font-weight:lighter;
+    color:black;
     font-family: Arial, Helvetica, sans-serif;
 }
 
