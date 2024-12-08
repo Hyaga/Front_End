@@ -1,0 +1,63 @@
+/*
+Neste arquivo detalharei os usos da Box Model e como eles são chamados 
+
+Box Model e o conjunto dos aspectos de margin, pading e border
+
+Margin e o termo que usamos para definir a area da margen dos quatro lados de um elemento no CSS
+Padding e o termo que usamos para definir a distancia entre o conteudo de um elemento e suas bordas no CSS
+
+Ambos o Margin quanto o Padding são alterados da mesma forma usando a chamada de 
+
+_top   define a altura da parte superior de um elemento
+_rigth define o espaço de preenchimento obrigatório no lado direito de um elemento
+_botton define a altura da parte inferio de um elemento
+_left define o espaço de preenchimento obrigatório no lado esquerdo de um elemento
+
+ambos tambem possuem o atalho de serem chamados em uma linha so exemplo:
+
+p{ margin: 50px 40px 30px 20px} respectivamente o _top, _ rigth, _botton e _ left
+
+Ja a Border e responsavel por definir as caracteristicas da borda de um elemento e ela possui uma maneira bem parecida de ser chamada que pelo uso do border_
+
+Porem ela possue caracteristicas diferentes do margin e padding
+
+_width define a largura da borda
+_color define a cor da borda
+_style define os estilos da borda
+
+A borda possue 8 maneiras de alterar o style
+
+none
+hiden
+dotted
+dashed
+solid 
+double
+groove
+ridge
+
+Propriedade display
+
+Antes de usar a propriedade display e nescessario resaltar o que e elementos com nivel de block e inline
+Elementos que possuem nivel de block são aqueles que quebram linha no html exemplo: h1, br,p,ul e ol
+Ja elementos de nivel inline são aqueles que não quebram a linha do codigo e so alteram a linha onde os mesmo foram chamados exemplo : tags a,strong        
+
+Com isso em maos a propriedade display nada mais faz do que a alteração desses niveis quando ela e chamada 
+
+exemplo: se um h1 for criado ele tera nivel block então no css
+
+h1{
+ display:inline -> agora o h1 estara com o nivel de inline
+}
+
+
+Pseudo Classes em links
+
+Pseudo classes em links são usadas e chamadas para alterarmos como o link aparece na tela e suas interações 
+
+a{
+    a:link -> estado normal do link
+    a:visited -> estado de quando ele ja foi visitado
+    a:hover -> quando o mouse e passado pelo link o mesmo se destaca  
+    a:active -> quando clicar no link ele ja e ativado 
+}
