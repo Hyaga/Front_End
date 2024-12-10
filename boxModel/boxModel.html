@@ -4,19 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Box Model</title>
+    <style>
+        p{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(139, 159, 177);
+            width: 400px;
+            height: 90px;
+        }
+        h2{
+            font-size: medium;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: aquamarine;
+            width: 200px;
+            height: 60px;
+        }
+
+        .p_especificoMargin{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(139, 159, 177);
+            margin: 40px,50px,40px,50px;     
+            width: 600px;
+            height: 100px;
+        }
+
+        .p_especificoPadding{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(139, 159, 177);
+            padding: 40px,50px,40px,50px;
+            width: 600px;
+            height: 100px;
+        }
+
+
+
+    </style>
 </head>
 <body>
     <h2>Box Model</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi atque, tempore veritatis blanditiis accusamus minima commodi reiciendis qui non officia earum ipsum enim soluta distinctio illo inventore minus maiores placeat!</p>
+    <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi atque, tempore veritatis blanditiis accusamus minima commodi reiciendis qui non officia earum ipsum enim soluta distinctio illo inventore minus maiores placeat!</p>
     <hr>
     <h2>Padding</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae facilis iusto, corrupti magni ex autem sint vitae rerum et itaque dicta libero nemo. Beatae, voluptas necessitatibus natus quod cupiditate soluta.</p>
+    <p class="p_especificoPadding">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae facilis iusto, corrupti magni ex autem sint vitae rerum et itaque dicta libero nemo. Beatae, voluptas necessitatibus natus quod cupiditate soluta.</p>
     <hr>
-    <p>Margin</p>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor eaque voluptatibus molestias asperiores voluptates sequi nostrum consequuntur laborum illo cumque!</p>
+    <h2>Margin</h2>
+    <p class="p_especificoMargin">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor eaque voluptatibus molestias asperiores voluptates sequi nostrum consequuntur laborum illo cumque!</p>
     <hr>
     <p>Boder</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis pariatur ducimus consectetur nemo optio natus beatae minus numquam praesentium officiis.</p>
+    <p class="p_especifico">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis pariatur ducimus consectetur nemo optio natus beatae minus numquam praesentium officiis.</p>
     
 
 </body>
