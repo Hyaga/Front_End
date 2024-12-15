@@ -6,6 +6,38 @@
     <title>Pseudo classes em links</title>
     <style>
         
+        p,h1,h2{ /*Aqui estou fazendo com que todas tags presentes neste parametro siga a formatação*/ 
+            
+            font-family: sans-serif;
+            color:rgb(248, 201, 99)
+        }
+
+        
+        body {
+            font-family: sans-serif;
+            color: rgb(0, 26, 255);
+        }
+
+        a {
+            display: inline-block;
+            padding: 3px;
+        }
+
+        a:link {
+            color: red;
+        }
+
+        a:visited { /*mudar a cor do link quando ele foi visitado*/
+            color: green;
+        }
+
+        a:hover { /*responsavel background do link*/
+            background-color: rgb(255, 204, 234);
+        }
+
+        a:active {
+            background-color: yellow;
+        }
 
 
     </style>
@@ -16,5 +48,10 @@
     <hr>
     <p>As pseudos classes em links nada mais são que as alteraçoes na estilisação que conseguimos realizar nos links da pagina, realizada no css ela altera as propriedades dos links facilitando o entendimento dos mesmos.</p>
     <p>Diferente das classes usadas em outras tags do css as pseudos classes dos links são chamadas a partir de : , exemplo "a:visited" </p>
+
+    <h2>Tipos de Pseudo classe de links aplicadas</h2>
+    <p>Link active:<a href="boxModel.html">Box Model</a>  | Link visited: <a href="width_heigth.html">width_heigth</a> |  A Link: <a href="didaticaBoxModel.txt">Didatica</a> </p>
+
+
 </body>
 </html>
