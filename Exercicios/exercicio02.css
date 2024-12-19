@@ -48,9 +48,9 @@ a:hover{
     text-align: right;
 }
 
-.menu li {
+.menu li { /*O espaço que foi dado na declaração indica que o elemente que esta dentro da classe criada seja alterada*/
     list-style-type: none;
-    display: inline-block;
+    display: inline-block; /*Isso foi feito para deixar o elemento em horizontal pois como ele era um elemento de bloco sempre  tera quebra de linha*/
     padding: 0;
 }
 
