@@ -26,17 +26,21 @@
     <p><Strong>Sistemas da Informação</Strong> - cursando pela faculdade Anhanguera</p>
     <p><strong>Tecnico de Internet das Coisas</strong>- formado pelo Instituto Federal do Triangulo Mineiro</p>
     <h2>Cursos e Especificações</h2>
-     <p class="pCursosFinalizados">Cursos finalizados</p>
+     <p class="pCursosFinalizados">Cursos para finalizados</p>
          <ul>
             <li>Curso de informatica basica</li>
             <li>Curso de manutenção de computadores e hardwares</li>
             <li>Cursos de redes</li>        
         </ul>
-    <p class="pCursosFinalizados">Cursos a fazer</p>
-        <ol>
-            <li><a href="https://www.udemy.com/course/curso-web-design-fundamentos-aprenda-html-css-e-javascript/">Curso Front-end</a></li>
-            <li><a href="https://www.udemy.com/course-dashboard-redirect/?course_id=2575266">Curso JavaScript</a></li>
-            <li>Design Grafico</li>
-        </ol>
+    <p class="pCursosFinalizados">Cursos a fazer  </p>
+        <form action="cadastro.php" autocomplete="off">
+            <ol>
+                <li><input type="checkbox" name="cursoWeb" id="icursoWeb"><a href="https://www.udemy.com/course/curso-web-design-fundamentos-aprenda-html-css-e-javascript/"></input>Curso Front-end</a></li>
+                <li><input type="checkbox" name="cursoJavaScript" id="icursoJavaScript" ><a href="https://www.udemy.com/course-dashboard-redirect/?course_id=2575266">Curso JavaScript</a></input></li>
+                <li><input type="checkbox" name="desingGrafico" id="idesingGrafico">Design Grafico</input></li>
+                <li><input type="checkbox" name="cursoPowerBI" id="icursoPowerBI">Power BI</input></li>
+            </ol>
+            <input type="submit" value="Enviar">
+        </form>
 </body>
 </html>
