@@ -1,0 +1,12 @@
+body{
+    background-color: #ccc;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.principal{
+    background-image:url(../Projeto01/html\ exemplo.jpg); 
+    height: 300px;
+    background-size: cover; 
+    background-position: right center;
+}
