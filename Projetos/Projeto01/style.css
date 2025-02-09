@@ -10,3 +10,27 @@ body{
     background-size: cover; 
     background-position: right center;
 }
+
+.cabecario{
+    margin: 50px auto 0;
+    width: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color:white
+}
+
+.cabecario h1{
+    font-size: 45px;
+    text-transform: capitalize;
+    text-shadow: 2px 2px 2px black;
+}
+
+.cabecario p{
+    text-shadow: 2px 2px 2px black;
+    background-color: rgba(0, 0, 0, .7);
+    font-size: 14px;
+    display: inline-block;
+    padding: 10px;
+    
+
+}
